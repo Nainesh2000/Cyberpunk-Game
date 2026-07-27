@@ -1,0 +1,89 @@
+body{
+
+    margin:0;
+    overflow:hidden;
+    background:#eeeeee;
+    font-family:Arial;
+
+}
+
+
+canvas{
+
+    display:block;
+
+}
+
+
+
+#brand{
+
+    position:absolute;
+
+    top:15px;
+
+    width:100%;
+
+    text-align:center;
+
+    font-size:32px;
+
+    font-weight:bold;
+
+    color:#0066ff;
+
+    text-shadow:2px 2px white;
+
+}
+
+
+
+#ui{
+
+    position:absolute;
+
+    top:70px;
+
+    left:20px;
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+
+
+#gameOver{
+
+    display:none;
+
+    position:absolute;
+
+    top:40%;
+
+    width:100%;
+
+    text-align:center;
+
+    font-size:50px;
+
+    color:red;
+
+    font-weight:bold;
+
+}
+
+
+
+button{
+
+    margin-top:20px;
+
+    padding:12px 35px;
+
+    font-size:22px;
+
+    cursor:pointer;
+
+}
